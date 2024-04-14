@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>collaborating &#8211; school Site</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description></description>
+	<lastBuildDate>Tue, 19 Mar 2024 03:36:11 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5</generator>
+	<item>
+		<title>Nulla vulputate</title>
+		<link>./../../../post-3/index.html</link>
+					<comments>./../../../post-3/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[brandonpham]]></dc:creator>
+		<pubDate>Tue, 05 Mar 2024 04:59:27 +0000</pubDate>
+				<category><![CDATA[Dolor]]></category>
+		<category><![CDATA[collaborating]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=41</guid>
+
+					<description><![CDATA[It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The... <a class="read-more" href="./../../../post-3/index.html"> Read more about the student...</a>]]></description>
+										<content:encoded><![CDATA[
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#8216;Content here, content here&#8217;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#8216;lorem ipsum&#8217; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../post-3/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>In Mollis Erat</title>
+		<link>./../../../post-2/index.html</link>
+					<comments>./../../../post-2/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[brandonpham]]></dc:creator>
+		<pubDate>Tue, 05 Mar 2024 04:59:19 +0000</pubDate>
+				<category><![CDATA[Dolor]]></category>
+		<category><![CDATA[Lorem]]></category>
+		<category><![CDATA[collaborating]]></category>
+		<category><![CDATA[presentations]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=39</guid>
+
+					<description><![CDATA[It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The... <a class="read-more" href="./../../../post-2/index.html"> Read more about the student...</a>]]></description>
+										<content:encoded><![CDATA[
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#8216;Content here, content here&#8217;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#8216;lorem ipsum&#8217; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../post-2/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,1490 @@
+[2024-04-07 04:39:13] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-04-07 04:39:13] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, create_zip_archive, wrapup
+[2024-04-07 04:39:13] [class-ss-archive-creation-job.php:98] Pushing first task to queue: setup
+[2024-04-07 04:39:15] [class-ss-archive-creation-job.php:132] Current task: setup
+[2024-04-07 04:39:15] [class-ss-archive-creation-job.php:149] Performing task: setup
+[2024-04-07 04:39:15] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-04-07 04:39:15] [class-ss-setup-task.php:33] Creating archive directory: C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753\
+[2024-04-07 04:39:15] [class-ss-setup-task.php:79] Adding origin URL to queue: http://localhost/school-demo/
+[2024-04-07 04:39:15] [class-ss-setup-task.php:137] File C:\MAMP\htdocs\school-demo\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/MAMP/htdocs/school-demo/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-04-07 04:39:15] [class-ss-archive-creation-job.php:171] We've found our next task: fetch_urls
+[2024-04-07 04:39:15] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-07 04:39:15] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-07 04:39:15] [class-ss-fetch-urls-task.php:55] Total pages: 2; Pages remaining: 2
+[2024-04-07 04:39:15] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/
+[2024-04-07 04:39:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-04-07 04:39:15] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223736ca2f-eUUJPg.tmp
+[2024-04-07 04:39:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/?simply_static_page=517
+[2024-04-07 04:39:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/?simply_static_page=517
+[2024-04-07 04:39:15] [class-ss-url-fetcher.php:103] Filesize: 28764 bytes
+[2024-04-07 04:39:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:15] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-04-07 04:39:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223736ca2f-eUUJPg.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/index.html
+[2024-04-07 04:39:15] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:16] [class-ss-fetch-urls-task.php:144] Adding 47 URLs to the queue
+[2024-04-07 04:39:17] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:17] [class-ss-fetch-urls-task.php:58] URL: C:/MAMP/htdocs/school-demo/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-04-07 04:39:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-04-07 04:39:17] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:17] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-04-07 04:39:17] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-04-07 04:39:17] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-07 04:39:17] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-07 04:39:17] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-07 04:39:17] [class-ss-fetch-urls-task.php:55] Total pages: 48; Pages remaining: 46
+[2024-04-07 04:39:17] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/news/
+[2024-04-07 04:39:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 48
+[2024-04-07 04:39:17] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237524d12-ecTLfn.tmp
+[2024-04-07 04:39:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/news/?simply_static_page=519
+[2024-04-07 04:39:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/news/?simply_static_page=519
+[2024-04-07 04:39:17] [class-ss-url-fetcher.php:103] Filesize: 29862 bytes
+[2024-04-07 04:39:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:17] [class-ss-url-fetcher.php:233] New filename for static page: /news/index.html
+[2024-04-07 04:39:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237524d12-ecTLfn.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/news/index.html
+[2024-04-07 04:39:17] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:18] [class-ss-fetch-urls-task.php:144] Adding 46 URLs to the queue
+[2024-04-07 04:39:18] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:18] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/schedule/
+[2024-04-07 04:39:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 48
+[2024-04-07 04:39:18] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237653a4c-quxPrS.tmp
+[2024-04-07 04:39:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/schedule/?simply_static_page=520
+[2024-04-07 04:39:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/schedule/?simply_static_page=520
+[2024-04-07 04:39:18] [class-ss-url-fetcher.php:103] Filesize: 20639 bytes
+[2024-04-07 04:39:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:18] [class-ss-url-fetcher.php:233] New filename for static page: /schedule/index.html
+[2024-04-07 04:39:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237653a4c-quxPrS.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/schedule/index.html
+[2024-04-07 04:39:18] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:19] [class-ss-fetch-urls-task.php:144] Adding 20 URLs to the queue
+[2024-04-07 04:39:19] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:19] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/staff/
+[2024-04-07 04:39:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 48
+[2024-04-07 04:39:19] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122377754b2-pfrtMA.tmp
+[2024-04-07 04:39:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/staff/?simply_static_page=521
+[2024-04-07 04:39:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/staff/?simply_static_page=521
+[2024-04-07 04:39:20] [class-ss-url-fetcher.php:103] Filesize: 22765 bytes
+[2024-04-07 04:39:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:20] [class-ss-url-fetcher.php:233] New filename for static page: /staff/index.html
+[2024-04-07 04:39:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122377754b2-pfrtMA.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/staff/index.html
+[2024-04-07 04:39:20] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:20] [class-ss-fetch-urls-task.php:144] Adding 20 URLs to the queue
+[2024-04-07 04:39:20] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:20] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/students/
+[2024-04-07 04:39:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 48
+[2024-04-07 04:39:20] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122378a9c6e-sC92Y5.tmp
+[2024-04-07 04:39:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/students/?simply_static_page=522
+[2024-04-07 04:39:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/students/?simply_static_page=522
+[2024-04-07 04:39:21] [class-ss-url-fetcher.php:103] Filesize: 24626 bytes
+[2024-04-07 04:39:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:21] [class-ss-url-fetcher.php:233] New filename for static page: /students/index.html
+[2024-04-07 04:39:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122378a9c6e-sC92Y5.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/students/index.html
+[2024-04-07 04:39:21] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:21] [class-ss-fetch-urls-task.php:144] Adding 31 URLs to the queue
+[2024-04-07 04:39:21] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:21] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/students-categories/developer/
+[2024-04-07 04:39:21] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 48
+[2024-04-07 04:39:21] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:21] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122379d585c-ydafRE.tmp
+[2024-04-07 04:39:21] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/students-categories/developer/?simply_static_page=523
+[2024-04-07 04:39:21] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/students-categories/developer/?simply_static_page=523
+[2024-04-07 04:39:22] [class-ss-url-fetcher.php:103] Filesize: 22055 bytes
+[2024-04-07 04:39:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:22] [class-ss-url-fetcher.php:233] New filename for static page: /students-categories/developer/index.html
+[2024-04-07 04:39:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122379d585c-ydafRE.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/students-categories/developer/index.html
+[2024-04-07 04:39:22] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:22] [class-ss-fetch-urls-task.php:144] Adding 26 URLs to the queue
+[2024-04-07 04:39:22] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:23] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/students-categories/designer/
+[2024-04-07 04:39:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 48
+[2024-04-07 04:39:23] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237b13c27-7ttRG2.tmp
+[2024-04-07 04:39:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/students-categories/designer/?simply_static_page=524
+[2024-04-07 04:39:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/students-categories/designer/?simply_static_page=524
+[2024-04-07 04:39:23] [class-ss-url-fetcher.php:103] Filesize: 22149 bytes
+[2024-04-07 04:39:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:23] [class-ss-url-fetcher.php:233] New filename for static page: /students-categories/designer/index.html
+[2024-04-07 04:39:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237b13c27-7ttRG2.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/students-categories/designer/index.html
+[2024-04-07 04:39:23] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:23] [class-ss-fetch-urls-task.php:144] Adding 26 URLs to the queue
+[2024-04-07 04:39:23] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:24] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/post-3/
+[2024-04-07 04:39:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 48
+[2024-04-07 04:39:24] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237c3d685-oKuyxd.tmp
+[2024-04-07 04:39:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/post-3/?simply_static_page=525
+[2024-04-07 04:39:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/post-3/?simply_static_page=525
+[2024-04-07 04:39:24] [class-ss-url-fetcher.php:103] Filesize: 28186 bytes
+[2024-04-07 04:39:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:24] [class-ss-url-fetcher.php:233] New filename for static page: /post-3/index.html
+[2024-04-07 04:39:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237c3d685-oKuyxd.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/post-3/index.html
+[2024-04-07 04:39:24] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:25] [class-ss-fetch-urls-task.php:144] Adding 36 URLs to the queue
+[2024-04-07 04:39:25] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:25] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/post-2/
+[2024-04-07 04:39:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 48
+[2024-04-07 04:39:25] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237d6534e-XF8jme.tmp
+[2024-04-07 04:39:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/post-2/?simply_static_page=526
+[2024-04-07 04:39:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/post-2/?simply_static_page=526
+[2024-04-07 04:39:25] [class-ss-url-fetcher.php:103] Filesize: 28543 bytes
+[2024-04-07 04:39:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:25] [class-ss-url-fetcher.php:233] New filename for static page: /post-2/index.html
+[2024-04-07 04:39:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237d6534e-XF8jme.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/post-2/index.html
+[2024-04-07 04:39:25] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:26] [class-ss-fetch-urls-task.php:144] Adding 36 URLs to the queue
+[2024-04-07 04:39:26] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:26] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/post-1/
+[2024-04-07 04:39:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 48
+[2024-04-07 04:39:26] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237e872b4-yTLKnd.tmp
+[2024-04-07 04:39:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/post-1/?simply_static_page=527
+[2024-04-07 04:39:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/post-1/?simply_static_page=527
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:103] Filesize: 28246 bytes
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:233] New filename for static page: /post-1/index.html
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237e872b4-yTLKnd.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/post-1/index.html
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:144] Adding 36 URLs to the queue
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting-1024x683.jpg
+[2024-04-07 04:39:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 48
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237fae3d5-cGb0d1.tmp
+[2024-04-07 04:39:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting-1024x683.jpg?simply_static_page=528
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting-1024x683.jpg?simply_static_page=528
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:103] Filesize: 99310 bytes
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/team-meeting-1024x683.jpg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237fae3d5-cGb0d1.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/team-meeting-1024x683.jpg
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting-300x200.jpg
+[2024-04-07 04:39:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 48
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237fb7f5a-2rG5pP.tmp
+[2024-04-07 04:39:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting-300x200.jpg?simply_static_page=529
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting-300x200.jpg?simply_static_page=529
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:103] Filesize: 14271 bytes
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/team-meeting-300x200.jpg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237fb7f5a-2rG5pP.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/team-meeting-300x200.jpg
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting-768x512.jpg
+[2024-04-07 04:39:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 48
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237fc38a9-acN7W0.tmp
+[2024-04-07 04:39:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting-768x512.jpg?simply_static_page=530
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting-768x512.jpg?simply_static_page=530
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:103] Filesize: 62158 bytes
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/team-meeting-768x512.jpg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237fc38a9-acN7W0.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/team-meeting-768x512.jpg
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting-1536x1025.jpg
+[2024-04-07 04:39:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 48
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237fcc94c-TqtVTD.tmp
+[2024-04-07 04:39:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting-1536x1025.jpg?simply_static_page=531
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting-1536x1025.jpg?simply_static_page=531
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:103] Filesize: 193588 bytes
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/team-meeting-1536x1025.jpg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237fcc94c-TqtVTD.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/team-meeting-1536x1025.jpg
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting.jpg
+[2024-04-07 04:39:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 48
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237fd41af-3YYOzD.tmp
+[2024-04-07 04:39:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting.jpg?simply_static_page=532
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/team-meeting.jpg?simply_static_page=532
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:103] Filesize: 545095 bytes
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/team-meeting.jpg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237fd41af-3YYOzD.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/team-meeting.jpg
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short.jpg
+[2024-04-07 04:39:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 48
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237fde035-4kHZbv.tmp
+[2024-04-07 04:39:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short.jpg?simply_static_page=533
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short.jpg?simply_static_page=533
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:103] Filesize: 341085 bytes
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/drawing-wireframes-short.jpg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237fde035-4kHZbv.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/drawing-wireframes-short.jpg
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short-300x109.jpg
+[2024-04-07 04:39:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 48
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237fe64bd-eIVVOP.tmp
+[2024-04-07 04:39:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short-300x109.jpg?simply_static_page=534
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short-300x109.jpg?simply_static_page=534
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:103] Filesize: 9668 bytes
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/drawing-wireframes-short-300x109.jpg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237fe64bd-eIVVOP.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/drawing-wireframes-short-300x109.jpg
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short-768x280.jpg
+[2024-04-07 04:39:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 48
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612237fec3f2-7yu3ZR.tmp
+[2024-04-07 04:39:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short-768x280.jpg?simply_static_page=535
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short-768x280.jpg?simply_static_page=535
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:103] Filesize: 42519 bytes
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/drawing-wireframes-short-768x280.jpg
+[2024-04-07 04:39:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612237fec3f2-7yu3ZR.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/drawing-wireframes-short-768x280.jpg
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:27] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short-1024x373.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238000eab-TH0BmD.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short-1024x373.jpg?simply_static_page=536
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short-1024x373.jpg?simply_static_page=536
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 67580 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/drawing-wireframes-short-1024x373.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238000eab-TH0BmD.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/drawing-wireframes-short-1024x373.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short-1536x560.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122380076d9-j7UJEs.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short-1536x560.jpg?simply_static_page=537
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/drawing-wireframes-short-1536x560.jpg?simply_static_page=537
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 126368 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/drawing-wireframes-short-1536x560.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122380076d9-j7UJEs.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/drawing-wireframes-short-1536x560.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone-300x200.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238010939-jxwdpq.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone-300x200.jpg?simply_static_page=538
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone-300x200.jpg?simply_static_page=538
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 14146 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/coding-alone-300x200.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238010939-jxwdpq.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/coding-alone-300x200.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone-768x512.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122380193d1-lFkFaT.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone-768x512.jpg?simply_static_page=539
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone-768x512.jpg?simply_static_page=539
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 60361 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/coding-alone-768x512.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122380193d1-lFkFaT.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/coding-alone-768x512.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone-1024x682.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223801fdd4-1FaQ9S.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone-1024x682.jpg?simply_static_page=540
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone-1024x682.jpg?simply_static_page=540
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 94549 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/coding-alone-1024x682.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223801fdd4-1FaQ9S.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/coding-alone-1024x682.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone-1536x1023.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238026755-hZ47Gx.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone-1536x1023.jpg?simply_static_page=541
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone-1536x1023.jpg?simply_static_page=541
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 178452 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/coding-alone-1536x1023.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238026755-hZ47Gx.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/coding-alone-1536x1023.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122380310a8-MVRiuK.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone.jpg?simply_static_page=542
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/coding-alone.jpg?simply_static_page=542
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 549023 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/coding-alone.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122380310a8-MVRiuK.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/coding-alone.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/programmers-collaborating-300x200.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223803bcf7-sWco1K.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/programmers-collaborating-300x200.jpg?simply_static_page=543
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/programmers-collaborating-300x200.jpg?simply_static_page=543
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 12352 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/programmers-collaborating-300x200.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223803bcf7-sWco1K.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/programmers-collaborating-300x200.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/programmers-collaborating-768x511.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238041cd8-BfTA6A.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/programmers-collaborating-768x511.jpg?simply_static_page=544
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/programmers-collaborating-768x511.jpg?simply_static_page=544
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 66063 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/programmers-collaborating-768x511.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238041cd8-BfTA6A.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/programmers-collaborating-768x511.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/programmers-collaborating-1024x681.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122380485eb-Ma6Jm0.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/programmers-collaborating-1024x681.jpg?simply_static_page=545
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/programmers-collaborating-1024x681.jpg?simply_static_page=545
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 113393 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/programmers-collaborating-1024x681.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122380485eb-Ma6Jm0.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/programmers-collaborating-1024x681.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/programmers-collaborating.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223804ee1f-axPfJC.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/programmers-collaborating.jpg?simply_static_page=546
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/programmers-collaborating.jpg?simply_static_page=546
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 290917 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/programmers-collaborating.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223804ee1f-axPfJC.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/programmers-collaborating.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2-300x200.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238056c37-Gc6dS2.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2-300x200.jpg?simply_static_page=547
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2-300x200.jpg?simply_static_page=547
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 7777 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/presentation-2-300x200.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238056c37-Gc6dS2.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/presentation-2-300x200.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2-768x512.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223805cc66-X3huYR.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2-768x512.jpg?simply_static_page=548
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2-768x512.jpg?simply_static_page=548
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 33523 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/presentation-2-768x512.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223805cc66-X3huYR.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/presentation-2-768x512.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2-1024x682.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238063217-AslMNM.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2-1024x682.jpg?simply_static_page=549
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2-1024x682.jpg?simply_static_page=549
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 53629 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/presentation-2-1024x682.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238063217-AslMNM.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/presentation-2-1024x682.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2-1536x1024.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238069a35-uiK8Kl.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2-1536x1024.jpg?simply_static_page=550
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2-1536x1024.jpg?simply_static_page=550
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 103248 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/presentation-2-1536x1024.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238069a35-uiK8Kl.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/presentation-2-1536x1024.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2.jpg
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238070a5f-3LMQs3.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2.jpg?simply_static_page=551
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/presentation-2.jpg?simply_static_page=551
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 307502 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/presentation-2.jpg
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238070a5f-3LMQs3.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/presentation-2.jpg
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/iconmonstr-school-white.png
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223807949e-sDIdRj.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/iconmonstr-school-white.png?simply_static_page=552
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/iconmonstr-school-white.png?simply_static_page=552
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 8494 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/iconmonstr-school-white.png
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223807949e-sDIdRj.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/iconmonstr-school-white.png
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/feed/
+[2024-04-07 04:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 48
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223807fa0a-S7LQ2J.tmp
+[2024-04-07 04:39:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/feed/?simply_static_page=553
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/feed/?simply_static_page=553
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:103] Filesize: 5372 bytes
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-04-07 04:39:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223807fa0a-S7LQ2J.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/feed/index.xml
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:28] [class-ss-fetch-urls-task.php:144] Adding 9 URLs to the queue
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/comments/feed/
+[2024-04-07 04:39:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 48
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238102bfa-3iF9vE.tmp
+[2024-04-07 04:39:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/comments/feed/?simply_static_page=554
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/comments/feed/?simply_static_page=554
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:103] Filesize: 745 bytes
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238102bfa-3iF9vE.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/comments/feed/index.xml
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:144] Adding 2 URLs to the queue
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-includes/css/dist/block-library/style.min.css
+[2024-04-07 04:39:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 48
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238189eb6-bY9h07.tmp
+[2024-04-07 04:39:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-includes/css/dist/block-library/style.min.css?simply_static_page=555
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-includes/css/dist/block-library/style.min.css?simply_static_page=555
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:103] Filesize: 113381 bytes
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238189eb6-bY9h07.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-includes/css/dist/block-library/style.min.css
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/themes/school-demo-theme-main/style.css
+[2024-04-07 04:39:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 48
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223819b6a5-CW1VKu.tmp
+[2024-04-07 04:39:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/themes/school-demo-theme-main/style.css?simply_static_page=556
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/themes/school-demo-theme-main/style.css?simply_static_page=556
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:103] Filesize: 26345 bytes
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/school-demo-theme-main/style.css
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223819b6a5-CW1VKu.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/themes/school-demo-theme-main/style.css
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/themes/school-demo-theme-main/aos.css
+[2024-04-07 04:39:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 48
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122381a853a-FpvjmP.tmp
+[2024-04-07 04:39:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/themes/school-demo-theme-main/aos.css?simply_static_page=557
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/themes/school-demo-theme-main/aos.css?simply_static_page=557
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:103] Filesize: 28528 bytes
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/school-demo-theme-main/aos.css
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122381a853a-FpvjmP.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/themes/school-demo-theme-main/aos.css
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/
+[2024-04-07 04:39:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 48
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/pages/29
+[2024-04-07 04:39:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 48
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/pages/29
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/xmlrpc.php
+[2024-04-07 04:39:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 48
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/xmlrpc.php
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/oembed/1.0/embed
+[2024-04-07 04:39:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 48
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/oembed/1.0/embed
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/themes/school-demo-theme-main/js/navigation.js
+[2024-04-07 04:39:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 48
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122381bd707-GSTy5C.tmp
+[2024-04-07 04:39:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/themes/school-demo-theme-main/js/navigation.js?simply_static_page=562
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/themes/school-demo-theme-main/js/navigation.js?simply_static_page=562
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:103] Filesize: 2980 bytes
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/school-demo-theme-main/js/navigation.js
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122381bd707-GSTy5C.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/themes/school-demo-theme-main/js/navigation.js
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/themes/school-demo-theme-main/scripts/aos_init.js
+[2024-04-07 04:39:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 48
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122381c4033-4qbEqL.tmp
+[2024-04-07 04:39:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/themes/school-demo-theme-main/scripts/aos_init.js?simply_static_page=563
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/themes/school-demo-theme-main/scripts/aos_init.js?simply_static_page=563
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:103] Filesize: 100 bytes
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/school-demo-theme-main/scripts/aos_init.js
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122381c4033-4qbEqL.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/themes/school-demo-theme-main/scripts/aos_init.js
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/themes/school-demo-theme-main/scripts/aos.js
+[2024-04-07 04:39:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 48
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122381cc89c-RAz0Ae.tmp
+[2024-04-07 04:39:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/themes/school-demo-theme-main/scripts/aos.js?simply_static_page=564
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/themes/school-demo-theme-main/scripts/aos.js?simply_static_page=564
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:103] Filesize: 23585 bytes
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/school-demo-theme-main/scripts/aos.js
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122381cc89c-RAz0Ae.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/themes/school-demo-theme-main/scripts/aos.js
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 48 pages/files
+[2024-04-07 04:39:29] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-07 04:39:29] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-07 04:39:29] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:55] Total pages: 91; Pages remaining: 43
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/2024/03/05/
+[2024-04-07 04:39:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 91
+[2024-04-07 04:39:29] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122381e33b3-cNLtM8.tmp
+[2024-04-07 04:39:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/2024/03/05/?simply_static_page=565
+[2024-04-07 04:39:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/2024/03/05/?simply_static_page=565
+[2024-04-07 04:39:30] [class-ss-url-fetcher.php:103] Filesize: 31202 bytes
+[2024-04-07 04:39:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:30] [class-ss-url-fetcher.php:233] New filename for static page: /2024/03/05/index.html
+[2024-04-07 04:39:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122381e33b3-cNLtM8.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/2024/03/05/index.html
+[2024-04-07 04:39:30] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:30] [class-ss-fetch-urls-task.php:144] Adding 43 URLs to the queue
+[2024-04-07 04:39:30] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:31] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/author/brandonpham/
+[2024-04-07 04:39:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 91
+[2024-04-07 04:39:31] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238313bc1-t00kux.tmp
+[2024-04-07 04:39:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/author/brandonpham/?simply_static_page=566
+[2024-04-07 04:39:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/author/brandonpham/?simply_static_page=566
+[2024-04-07 04:39:31] [class-ss-url-fetcher.php:103] Filesize: 31457 bytes
+[2024-04-07 04:39:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:31] [class-ss-url-fetcher.php:233] New filename for static page: /author/brandonpham/index.html
+[2024-04-07 04:39:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238313bc1-t00kux.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/author/brandonpham/index.html
+[2024-04-07 04:39:31] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:31] [class-ss-fetch-urls-task.php:144] Adding 45 URLs to the queue
+[2024-04-07 04:39:31] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:32] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/category/dolor/
+[2024-04-07 04:39:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 91
+[2024-04-07 04:39:32] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238448d13-5KAOx9.tmp
+[2024-04-07 04:39:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/category/dolor/?simply_static_page=567
+[2024-04-07 04:39:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/category/dolor/?simply_static_page=567
+[2024-04-07 04:39:32] [class-ss-url-fetcher.php:103] Filesize: 28535 bytes
+[2024-04-07 04:39:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:32] [class-ss-url-fetcher.php:233] New filename for static page: /category/dolor/index.html
+[2024-04-07 04:39:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238448d13-5KAOx9.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/category/dolor/index.html
+[2024-04-07 04:39:32] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:33] [class-ss-fetch-urls-task.php:144] Adding 39 URLs to the queue
+[2024-04-07 04:39:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:33] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/tag/collaborating/
+[2024-04-07 04:39:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 91
+[2024-04-07 04:39:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238570440-RgGQks.tmp
+[2024-04-07 04:39:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/tag/collaborating/?simply_static_page=568
+[2024-04-07 04:39:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/tag/collaborating/?simply_static_page=568
+[2024-04-07 04:39:33] [class-ss-url-fetcher.php:103] Filesize: 28512 bytes
+[2024-04-07 04:39:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:33] [class-ss-url-fetcher.php:233] New filename for static page: /tag/collaborating/index.html
+[2024-04-07 04:39:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238570440-RgGQks.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/tag/collaborating/index.html
+[2024-04-07 04:39:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:34] [class-ss-fetch-urls-task.php:144] Adding 39 URLs to the queue
+[2024-04-07 04:39:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:34] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/category/lorem/
+[2024-04-07 04:39:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 91
+[2024-04-07 04:39:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122386a41e6-7LoNcX.tmp
+[2024-04-07 04:39:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/category/lorem/?simply_static_page=569
+[2024-04-07 04:39:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/category/lorem/?simply_static_page=569
+[2024-04-07 04:39:35] [class-ss-url-fetcher.php:103] Filesize: 28603 bytes
+[2024-04-07 04:39:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:35] [class-ss-url-fetcher.php:233] New filename for static page: /category/lorem/index.html
+[2024-04-07 04:39:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122386a41e6-7LoNcX.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/category/lorem/index.html
+[2024-04-07 04:39:35] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:35] [class-ss-fetch-urls-task.php:144] Adding 40 URLs to the queue
+[2024-04-07 04:39:35] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:35] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/tag/presentations/
+[2024-04-07 04:39:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 91
+[2024-04-07 04:39:35] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122387c9c75-4oZ9iS.tmp
+[2024-04-07 04:39:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/tag/presentations/?simply_static_page=570
+[2024-04-07 04:39:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/tag/presentations/?simply_static_page=570
+[2024-04-07 04:39:36] [class-ss-url-fetcher.php:103] Filesize: 25641 bytes
+[2024-04-07 04:39:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:36] [class-ss-url-fetcher.php:233] New filename for static page: /tag/presentations/index.html
+[2024-04-07 04:39:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122387c9c75-4oZ9iS.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/tag/presentations/index.html
+[2024-04-07 04:39:36] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:36] [class-ss-fetch-urls-task.php:144] Adding 34 URLs to the queue
+[2024-04-07 04:39:36] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:36] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/category/ipsum/
+[2024-04-07 04:39:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 91
+[2024-04-07 04:39:37] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223890074d-VoSoK5.tmp
+[2024-04-07 04:39:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/category/ipsum/?simply_static_page=571
+[2024-04-07 04:39:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/category/ipsum/?simply_static_page=571
+[2024-04-07 04:39:37] [class-ss-url-fetcher.php:103] Filesize: 25556 bytes
+[2024-04-07 04:39:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:37] [class-ss-url-fetcher.php:233] New filename for static page: /category/ipsum/index.html
+[2024-04-07 04:39:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223890074d-VoSoK5.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/category/ipsum/index.html
+[2024-04-07 04:39:37] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:37] [class-ss-fetch-urls-task.php:144] Adding 34 URLs to the queue
+[2024-04-07 04:39:37] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:38] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/tag/coding/
+[2024-04-07 04:39:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 91
+[2024-04-07 04:39:38] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238a2baad-qGKuuu.tmp
+[2024-04-07 04:39:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/tag/coding/?simply_static_page=572
+[2024-04-07 04:39:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/tag/coding/?simply_static_page=572
+[2024-04-07 04:39:38] [class-ss-url-fetcher.php:103] Filesize: 25498 bytes
+[2024-04-07 04:39:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:38] [class-ss-url-fetcher.php:233] New filename for static page: /tag/coding/index.html
+[2024-04-07 04:39:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238a2baad-qGKuuu.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/tag/coding/index.html
+[2024-04-07 04:39:38] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:39] [class-ss-fetch-urls-task.php:144] Adding 34 URLs to the queue
+[2024-04-07 04:39:39] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:39] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/2024/03/
+[2024-04-07 04:39:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 91
+[2024-04-07 04:39:39] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238b5ca71-lFJQdi.tmp
+[2024-04-07 04:39:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/2024/03/?simply_static_page=573
+[2024-04-07 04:39:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/2024/03/?simply_static_page=573
+[2024-04-07 04:39:39] [class-ss-url-fetcher.php:103] Filesize: 31196 bytes
+[2024-04-07 04:39:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:39] [class-ss-url-fetcher.php:233] New filename for static page: /2024/03/index.html
+[2024-04-07 04:39:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238b5ca71-lFJQdi.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/2024/03/index.html
+[2024-04-07 04:39:39] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:40] [class-ss-fetch-urls-task.php:144] Adding 43 URLs to the queue
+[2024-04-07 04:39:40] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:40] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/pages/33
+[2024-04-07 04:39:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 91
+[2024-04-07 04:39:40] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/pages/33
+[2024-04-07 04:39:40] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:40] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/pages/167
+[2024-04-07 04:39:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 91
+[2024-04-07 04:39:40] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/pages/167
+[2024-04-07 04:39:40] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:40] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/pages/223
+[2024-04-07 04:39:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 91
+[2024-04-07 04:39:40] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/pages/223
+[2024-04-07 04:39:40] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:40] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/students/clara-jones/
+[2024-04-07 04:39:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 91
+[2024-04-07 04:39:40] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238c9224f-e7erPt.tmp
+[2024-04-07 04:39:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/students/clara-jones/?simply_static_page=577
+[2024-04-07 04:39:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/students/clara-jones/?simply_static_page=577
+[2024-04-07 04:39:41] [class-ss-url-fetcher.php:103] Filesize: 21122 bytes
+[2024-04-07 04:39:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:41] [class-ss-url-fetcher.php:233] New filename for static page: /students/clara-jones/index.html
+[2024-04-07 04:39:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238c9224f-e7erPt.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/students/clara-jones/index.html
+[2024-04-07 04:39:41] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:41] [class-ss-fetch-urls-task.php:144] Adding 26 URLs to the queue
+[2024-04-07 04:39:41] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:41] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/students/jack-white/
+[2024-04-07 04:39:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 91
+[2024-04-07 04:39:41] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238db595a-vLl93u.tmp
+[2024-04-07 04:39:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/students/jack-white/?simply_static_page=578
+[2024-04-07 04:39:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/students/jack-white/?simply_static_page=578
+[2024-04-07 04:39:42] [class-ss-url-fetcher.php:103] Filesize: 21135 bytes
+[2024-04-07 04:39:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:42] [class-ss-url-fetcher.php:233] New filename for static page: /students/jack-white/index.html
+[2024-04-07 04:39:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238db595a-vLl93u.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/students/jack-white/index.html
+[2024-04-07 04:39:42] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:42] [class-ss-fetch-urls-task.php:144] Adding 26 URLs to the queue
+[2024-04-07 04:39:42] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:42] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/students/maxwell-zack/
+[2024-04-07 04:39:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 91
+[2024-04-07 04:39:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612238ed6c83-0z86HW.tmp
+[2024-04-07 04:39:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/students/maxwell-zack/?simply_static_page=579
+[2024-04-07 04:39:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/students/maxwell-zack/?simply_static_page=579
+[2024-04-07 04:39:43] [class-ss-url-fetcher.php:103] Filesize: 21136 bytes
+[2024-04-07 04:39:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:43] [class-ss-url-fetcher.php:233] New filename for static page: /students/maxwell-zack/index.html
+[2024-04-07 04:39:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612238ed6c83-0z86HW.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/students/maxwell-zack/index.html
+[2024-04-07 04:39:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:43] [class-ss-fetch-urls-task.php:144] Adding 26 URLs to the queue
+[2024-04-07 04:39:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:44] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/students/mckenzie-smith/
+[2024-04-07 04:39:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 91
+[2024-04-07 04:39:44] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223900ac17-IXDua5.tmp
+[2024-04-07 04:39:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/students/mckenzie-smith/?simply_static_page=580
+[2024-04-07 04:39:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/students/mckenzie-smith/?simply_static_page=580
+[2024-04-07 04:39:44] [class-ss-url-fetcher.php:103] Filesize: 21327 bytes
+[2024-04-07 04:39:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:44] [class-ss-url-fetcher.php:233] New filename for static page: /students/mckenzie-smith/index.html
+[2024-04-07 04:39:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223900ac17-IXDua5.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/students/mckenzie-smith/index.html
+[2024-04-07 04:39:44] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:44] [class-ss-fetch-urls-task.php:144] Adding 26 URLs to the queue
+[2024-04-07 04:39:44] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:45] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/students/nadia-aziz/
+[2024-04-07 04:39:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 91
+[2024-04-07 04:39:45] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223913946d-TYJAww.tmp
+[2024-04-07 04:39:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/students/nadia-aziz/?simply_static_page=581
+[2024-04-07 04:39:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/students/nadia-aziz/?simply_static_page=581
+[2024-04-07 04:39:45] [class-ss-url-fetcher.php:103] Filesize: 21198 bytes
+[2024-04-07 04:39:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:45] [class-ss-url-fetcher.php:233] New filename for static page: /students/nadia-aziz/index.html
+[2024-04-07 04:39:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223913946d-TYJAww.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/students/nadia-aziz/index.html
+[2024-04-07 04:39:45] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:46] [class-ss-fetch-urls-task.php:144] Adding 26 URLs to the queue
+[2024-04-07 04:39:46] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:46] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/students/ravi-singh/
+[2024-04-07 04:39:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 91
+[2024-04-07 04:39:46] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223925b5b3-RPVzA3.tmp
+[2024-04-07 04:39:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/students/ravi-singh/?simply_static_page=582
+[2024-04-07 04:39:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/students/ravi-singh/?simply_static_page=582
+[2024-04-07 04:39:46] [class-ss-url-fetcher.php:103] Filesize: 21137 bytes
+[2024-04-07 04:39:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-07 04:39:46] [class-ss-url-fetcher.php:233] New filename for static page: /students/ravi-singh/index.html
+[2024-04-07 04:39:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223925b5b3-RPVzA3.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/students/ravi-singh/index.html
+[2024-04-07 04:39:46] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:144] Adding 26 URLs to the queue
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student2-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 91
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122393823aa-EP3xPb.tmp
+[2024-04-07 04:39:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student2-300x200.jpg?simply_static_page=583
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student2-300x200.jpg?simply_static_page=583
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:103] Filesize: 8346 bytes
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student2-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122393823aa-EP3xPb.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student2-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student4-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 91
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223938af86-3smE7F.tmp
+[2024-04-07 04:39:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student4-300x200.jpg?simply_static_page=584
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student4-300x200.jpg?simply_static_page=584
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:103] Filesize: 5205 bytes
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student4-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223938af86-3smE7F.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student4-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student5-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 91
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122393911d7-tUJJH5.tmp
+[2024-04-07 04:39:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student5-300x200.jpg?simply_static_page=585
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student5-300x200.jpg?simply_static_page=585
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:103] Filesize: 8993 bytes
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student5-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122393911d7-tUJJH5.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student5-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student1-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 91
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239399f59-2d7vqa.tmp
+[2024-04-07 04:39:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student1-300x200.jpg?simply_static_page=586
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student1-300x200.jpg?simply_static_page=586
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:103] Filesize: 10569 bytes
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student1-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239399f59-2d7vqa.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student1-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student3-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 91
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122393a25ff-swQQjO.tmp
+[2024-04-07 04:39:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student3-300x200.jpg?simply_static_page=587
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student3-300x200.jpg?simply_static_page=587
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:103] Filesize: 8064 bytes
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student3-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122393a25ff-swQQjO.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student3-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student6-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 91
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122393aad27-7Upx00.tmp
+[2024-04-07 04:39:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student6-300x200.jpg?simply_static_page=588
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student6-300x200.jpg?simply_static_page=588
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:103] Filesize: 9470 bytes
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student6-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122393aad27-7Upx00.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student6-300x200.jpg
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/students/feed/
+[2024-04-07 04:39:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 91
+[2024-04-07 04:39:47] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122393b331e-QiUrzw.tmp
+[2024-04-07 04:39:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/students/feed/?simply_static_page=589
+[2024-04-07 04:39:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/students/feed/?simply_static_page=589
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:103] Filesize: 8386 bytes
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:233] New filename for static page: /students/feed/index.xml
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122393b331e-QiUrzw.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/students/feed/index.xml
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:144] Adding 9 URLs to the queue
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student3-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 91
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239438dad-uemYIg.tmp
+[2024-04-07 04:39:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student3-200x300.jpg?simply_static_page=590
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student3-200x300.jpg?simply_static_page=590
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:103] Filesize: 9619 bytes
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student3-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239438dad-uemYIg.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student3-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student5-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 91
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239441448-vSIEJA.tmp
+[2024-04-07 04:39:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student5-200x300.jpg?simply_static_page=591
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student5-200x300.jpg?simply_static_page=591
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:103] Filesize: 13192 bytes
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student5-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239441448-vSIEJA.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student5-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student4-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 91
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239449e37-V2Plu7.tmp
+[2024-04-07 04:39:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student4-200x300.jpg?simply_static_page=592
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student4-200x300.jpg?simply_static_page=592
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:103] Filesize: 5775 bytes
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student4-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239449e37-V2Plu7.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student4-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/students-categories/developer/feed/
+[2024-04-07 04:39:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 91
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239452940-IfxDuC.tmp
+[2024-04-07 04:39:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/students-categories/developer/feed/?simply_static_page=593
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/students-categories/developer/feed/?simply_static_page=593
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:103] Filesize: 4593 bytes
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:233] New filename for static page: /students-categories/developer/feed/index.xml
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239452940-IfxDuC.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/students-categories/developer/feed/index.xml
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:144] Adding 6 URLs to the queue
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students-category/4
+[2024-04-07 04:39:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 91
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students-category/4
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student6-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 91
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122394c946d-eCUFR2.tmp
+[2024-04-07 04:39:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student6-200x300.jpg?simply_static_page=595
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student6-200x300.jpg?simply_static_page=595
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:103] Filesize: 10882 bytes
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student6-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122394c946d-eCUFR2.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student6-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student1-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 91
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122394d1801-C1OJ0m.tmp
+[2024-04-07 04:39:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student1-200x300.jpg?simply_static_page=596
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student1-200x300.jpg?simply_static_page=596
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:103] Filesize: 13622 bytes
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student1-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122394d1801-C1OJ0m.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student1-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student2-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 91
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122394d9e98-oQGz1c.tmp
+[2024-04-07 04:39:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student2-200x300.jpg?simply_static_page=597
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student2-200x300.jpg?simply_static_page=597
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:103] Filesize: 10827 bytes
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student2-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122394d9e98-oQGz1c.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student2-200x300.jpg
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/students-categories/designer/feed/
+[2024-04-07 04:39:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 91
+[2024-04-07 04:39:48] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122394e308f-Zt3OBB.tmp
+[2024-04-07 04:39:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/students-categories/designer/feed/?simply_static_page=598
+[2024-04-07 04:39:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/students-categories/designer/feed/?simply_static_page=598
+[2024-04-07 04:39:49] [class-ss-url-fetcher.php:103] Filesize: 4712 bytes
+[2024-04-07 04:39:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:49] [class-ss-url-fetcher.php:233] New filename for static page: /students-categories/designer/feed/index.xml
+[2024-04-07 04:39:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122394e308f-Zt3OBB.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/students-categories/designer/feed/index.xml
+[2024-04-07 04:39:49] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:49] [class-ss-fetch-urls-task.php:144] Adding 6 URLs to the queue
+[2024-04-07 04:39:49] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:49] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students-category/3
+[2024-04-07 04:39:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 91
+[2024-04-07 04:39:49] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students-category/3
+[2024-04-07 04:39:49] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:49] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/post-3/feed/
+[2024-04-07 04:39:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 91
+[2024-04-07 04:39:49] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223957a6f4-OucKBn.tmp
+[2024-04-07 04:39:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/post-3/feed/?simply_static_page=600
+[2024-04-07 04:39:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/post-3/feed/?simply_static_page=600
+[2024-04-07 04:39:49] [class-ss-url-fetcher.php:103] Filesize: 755 bytes
+[2024-04-07 04:39:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:49] [class-ss-url-fetcher.php:233] New filename for static page: /post-3/feed/index.xml
+[2024-04-07 04:39:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223957a6f4-OucKBn.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/post-3/feed/index.xml
+[2024-04-07 04:39:49] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:144] Adding 2 URLs to the queue
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/posts/41
+[2024-04-07 04:39:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 91
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/posts/41
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-includes/js/comment-reply.min.js
+[2024-04-07 04:39:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 91
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223960592a-AUGFOY.tmp
+[2024-04-07 04:39:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-includes/js/comment-reply.min.js?simply_static_page=602
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-includes/js/comment-reply.min.js?simply_static_page=602
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223960592a-AUGFOY.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-includes/js/comment-reply.min.js
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/post-2/feed/
+[2024-04-07 04:39:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 91
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223960bc00-WcnEvi.tmp
+[2024-04-07 04:39:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/post-2/feed/?simply_static_page=603
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/post-2/feed/?simply_static_page=603
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:103] Filesize: 754 bytes
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:233] New filename for static page: /post-2/feed/index.xml
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223960bc00-WcnEvi.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/post-2/feed/index.xml
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:144] Adding 2 URLs to the queue
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/posts/39
+[2024-04-07 04:39:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 91
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/posts/39
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/post-1/feed/
+[2024-04-07 04:39:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 91
+[2024-04-07 04:39:50] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239690608-wUW7Fw.tmp
+[2024-04-07 04:39:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/post-1/feed/?simply_static_page=605
+[2024-04-07 04:39:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/post-1/feed/?simply_static_page=605
+[2024-04-07 04:39:51] [class-ss-url-fetcher.php:103] Filesize: 759 bytes
+[2024-04-07 04:39:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:51] [class-ss-url-fetcher.php:233] New filename for static page: /post-1/feed/index.xml
+[2024-04-07 04:39:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239690608-wUW7Fw.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/post-1/feed/index.xml
+[2024-04-07 04:39:51] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:51] [class-ss-fetch-urls-task.php:144] Adding 2 URLs to the queue
+[2024-04-07 04:39:51] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:51] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/posts/37
+[2024-04-07 04:39:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 91
+[2024-04-07 04:39:51] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/posts/37
+[2024-04-07 04:39:51] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:51] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo
+[2024-04-07 04:39:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 91
+[2024-04-07 04:39:51] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223970d1c6-AMlLzS.tmp
+[2024-04-07 04:39:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo?simply_static_page=607
+[2024-04-07 04:39:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo?simply_static_page=607
+[2024-04-07 04:39:51] [class-ss-url-fetcher.php:103] Filesize: 260 bytes
+[2024-04-07 04:39:51] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-04-07 04:39:51] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-07 04:39:51] [class-ss-fetch-urls-task.php:190] redirect_url: http://localhost/school-demo/
+[2024-04-07 04:39:51] [class-ss-fetch-urls-task.php:199] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-04-07 04:39:51] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 48 of 91 pages/files
+[2024-04-07 04:39:51] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-07 04:39:51] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-07 04:39:51] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-07 04:39:51] [class-ss-fetch-urls-task.php:55] Total pages: 129; Pages remaining: 38
+[2024-04-07 04:39:51] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/author/brandonpham/feed/
+[2024-04-07 04:39:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 129
+[2024-04-07 04:39:51] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239796527-brZ5fp.tmp
+[2024-04-07 04:39:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/author/brandonpham/feed/?simply_static_page=608
+[2024-04-07 04:39:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/author/brandonpham/feed/?simply_static_page=608
+[2024-04-07 04:39:52] [class-ss-url-fetcher.php:103] Filesize: 5693 bytes
+[2024-04-07 04:39:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:52] [class-ss-url-fetcher.php:233] New filename for static page: /author/brandonpham/feed/index.xml
+[2024-04-07 04:39:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239796527-brZ5fp.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/author/brandonpham/feed/index.xml
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:144] Adding 9 URLs to the queue
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/users/2
+[2024-04-07 04:39:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 129
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/users/2
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/category/dolor/feed/
+[2024-04-07 04:39:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 129
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122398204af-JMfD6Q.tmp
+[2024-04-07 04:39:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/category/dolor/feed/?simply_static_page=610
+[2024-04-07 04:39:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/category/dolor/feed/?simply_static_page=610
+[2024-04-07 04:39:52] [class-ss-url-fetcher.php:103] Filesize: 4083 bytes
+[2024-04-07 04:39:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:52] [class-ss-url-fetcher.php:233] New filename for static page: /category/dolor/feed/index.xml
+[2024-04-07 04:39:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122398204af-JMfD6Q.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/category/dolor/feed/index.xml
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:144] Adding 7 URLs to the queue
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/categories/11
+[2024-04-07 04:39:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 129
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/categories/11
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/tag/collaborating/feed/
+[2024-04-07 04:39:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 129
+[2024-04-07 04:39:52] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/661223989259b-PTmLuM.tmp
+[2024-04-07 04:39:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/tag/collaborating/feed/?simply_static_page=612
+[2024-04-07 04:39:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/tag/collaborating/feed/?simply_static_page=612
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:103] Filesize: 4094 bytes
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:233] New filename for static page: /tag/collaborating/feed/index.xml
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/661223989259b-PTmLuM.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/tag/collaborating/feed/index.xml
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:144] Adding 7 URLs to the queue
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/tags/13
+[2024-04-07 04:39:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 129
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/tags/13
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/category/lorem/feed/
+[2024-04-07 04:39:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 129
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239912c16-5hWmKp.tmp
+[2024-04-07 04:39:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/category/lorem/feed/?simply_static_page=614
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/category/lorem/feed/?simply_static_page=614
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:103] Filesize: 4126 bytes
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:233] New filename for static page: /category/lorem/feed/index.xml
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239912c16-5hWmKp.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/category/lorem/feed/index.xml
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:144] Adding 7 URLs to the queue
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/categories/12
+[2024-04-07 04:39:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 129
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/categories/12
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/tag/presentations/feed/
+[2024-04-07 04:39:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 129
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122399854b3-3MrdFJ.tmp
+[2024-04-07 04:39:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/tag/presentations/feed/?simply_static_page=616
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/tag/presentations/feed/?simply_static_page=616
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:103] Filesize: 2537 bytes
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:233] New filename for static page: /tag/presentations/feed/index.xml
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122399854b3-3MrdFJ.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/tag/presentations/feed/index.xml
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:144] Adding 5 URLs to the queue
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/tags/14
+[2024-04-07 04:39:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 129
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/tags/14
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/category/ipsum/feed/
+[2024-04-07 04:39:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 129
+[2024-04-07 04:39:53] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/66122399f2cfc-qkGgi2.tmp
+[2024-04-07 04:39:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/category/ipsum/feed/?simply_static_page=618
+[2024-04-07 04:39:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/category/ipsum/feed/?simply_static_page=618
+[2024-04-07 04:39:54] [class-ss-url-fetcher.php:103] Filesize: 2480 bytes
+[2024-04-07 04:39:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:54] [class-ss-url-fetcher.php:233] New filename for static page: /category/ipsum/feed/index.xml
+[2024-04-07 04:39:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/66122399f2cfc-qkGgi2.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/category/ipsum/feed/index.xml
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:144] Adding 5 URLs to the queue
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/categories/15
+[2024-04-07 04:39:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 129
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/categories/15
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/tag/coding/feed/
+[2024-04-07 04:39:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 129
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239a86075-77yu0O.tmp
+[2024-04-07 04:39:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/tag/coding/feed/?simply_static_page=620
+[2024-04-07 04:39:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/tag/coding/feed/?simply_static_page=620
+[2024-04-07 04:39:54] [class-ss-url-fetcher.php:103] Filesize: 2477 bytes
+[2024-04-07 04:39:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-07 04:39:54] [class-ss-url-fetcher.php:233] New filename for static page: /tag/coding/feed/index.xml
+[2024-04-07 04:39:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239a86075-77yu0O.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/tag/coding/feed/index.xml
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:144] Adding 5 URLs to the queue
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/tags/16
+[2024-04-07 04:39:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 129
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/tags/16
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student2.jpg
+[2024-04-07 04:39:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 129
+[2024-04-07 04:39:54] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239af3fef-gCPrXE.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student2.jpg?simply_static_page=622
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student2.jpg?simply_static_page=622
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 98729 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student2.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239af3fef-gCPrXE.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student2.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student2-300x257.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b08f5a-iglPnH.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student2-300x257.jpg?simply_static_page=623
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student2-300x257.jpg?simply_static_page=623
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 9883 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student2-300x257.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b08f5a-iglPnH.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student2-300x257.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student2-768x659.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b11a30-zimRDf.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student2-768x659.jpg?simply_static_page=624
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student2-768x659.jpg?simply_static_page=624
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 44733 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student2-768x659.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b11a30-zimRDf.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student2-768x659.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students/180
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students/180
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student4.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b1c305-ivQTSY.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student4.jpg?simply_static_page=626
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student4.jpg?simply_static_page=626
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 60104 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student4.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b1c305-ivQTSY.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student4.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student4-277x300.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b250e1-P1Ftin.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student4-277x300.jpg?simply_static_page=627
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student4-277x300.jpg?simply_static_page=627
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 6299 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student4-277x300.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b250e1-P1Ftin.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student4-277x300.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student4-768x830.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b2b204-LVlrRL.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student4-768x830.jpg?simply_static_page=628
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student4-768x830.jpg?simply_static_page=628
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 30438 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student4-768x830.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b2b204-LVlrRL.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student4-768x830.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students/181
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students/181
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student5.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b33815-gAJ8qS.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student5.jpg?simply_static_page=630
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student5.jpg?simply_static_page=630
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 85222 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student5.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b33815-gAJ8qS.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student5.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student5-300x220.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b3a00f-xQIfEJ.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student5-300x220.jpg?simply_static_page=631
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student5-300x220.jpg?simply_static_page=631
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 9661 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student5-300x220.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b3a00f-xQIfEJ.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student5-300x220.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student5-768x564.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b40195-1LskIX.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student5-768x564.jpg?simply_static_page=632
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student5-768x564.jpg?simply_static_page=632
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 41216 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student5-768x564.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b40195-1LskIX.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student5-768x564.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students/182
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students/182
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student1.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b48079-flDaqw.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student1.jpg?simply_static_page=634
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student1.jpg?simply_static_page=634
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 150171 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student1.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b48079-flDaqw.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student1.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student1-284x300.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b4f219-hjkihZ.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student1-284x300.jpg?simply_static_page=635
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student1-284x300.jpg?simply_static_page=635
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 14164 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student1-284x300.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b4f219-hjkihZ.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student1-284x300.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student1-768x812.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b55496-NrAjPk.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student1-768x812.jpg?simply_static_page=636
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student1-768x812.jpg?simply_static_page=636
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 76466 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student1-768x812.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b55496-NrAjPk.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student1-768x812.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students/183
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students/183
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student3.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b5d57f-KdOLl9.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student3.jpg?simply_static_page=638
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student3.jpg?simply_static_page=638
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 110700 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student3.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b5d57f-KdOLl9.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student3.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student3-277x300.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b654b7-4B27OU.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student3-277x300.jpg?simply_static_page=639
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student3-277x300.jpg?simply_static_page=639
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 10472 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student3-277x300.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b654b7-4B27OU.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student3-277x300.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student3-768x831.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b6b60d-eVMKLT.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student3-768x831.jpg?simply_static_page=640
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student3-768x831.jpg?simply_static_page=640
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 53162 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student3-768x831.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b6b60d-eVMKLT.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student3-768x831.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students/184
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students/184
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student6.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b7379e-VGiuVM.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student6.jpg?simply_static_page=642
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student6.jpg?simply_static_page=642
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 197983 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student6.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b7379e-VGiuVM.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student6.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student6-243x300.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b7ac85-8Ya9u4.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student6-243x300.jpg?simply_static_page=643
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student6-243x300.jpg?simply_static_page=643
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 11400 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student6-243x300.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b7ac85-8Ya9u4.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student6-243x300.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-content/uploads/2024/03/student6-768x947.jpg
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\payme\AppData\Local\Temp/6612239b80ed8-cVLOfM.tmp
+[2024-04-07 04:39:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/school-demo/wp-content/uploads/2024/03/student6-768x947.jpg?simply_static_page=644
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo/wp-content/uploads/2024/03/student6-768x947.jpg?simply_static_page=644
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:103] Filesize: 98445 bytes
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/03/student6-768x947.jpg
+[2024-04-07 04:39:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\payme\AppData\Local\Temp/6612239b80ed8-cVLOfM.tmp to C:\MAMP\htdocs\school-demo/wp-content/uploads\simply-static\temp-files/simply-static-1-1712464753/wp-content/uploads/2024/03/student6-768x947.jpg
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:58] URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students/185
+[2024-04-07 04:39:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 129
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/school-demo/wp-json/wp/v2/fwd-students/185
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-07 04:39:55] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 91 of 129 pages/files
+[2024-04-07 04:39:55] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-07 04:39:55] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-07 04:39:55] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-07 04:39:55] [class-ss-fetch-urls-task.php:55] Total pages: 129; Pages remaining: 0
+[2024-04-07 04:39:55] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 129 of 129 pages/files
+[2024-04-07 04:39:55] [class-ss-archive-creation-job.php:171] We've found our next task: create_zip_archive
+[2024-04-07 04:39:55] [class-ss-archive-creation-job.php:132] Current task: create_zip_archive
+[2024-04-07 04:39:55] [class-ss-archive-creation-job.php:149] Performing task: create_zip_archive
+[2024-04-07 04:39:55] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-04-07 04:39:55] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-04-07 04:39:55] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/school-demo/wp-content/uploads/simply-static/temp-files/simply-static-1-1712464753.zip">Click here to download</a>
+[2024-04-07 04:39:55] [class-ss-archive-creation-job.php:171] We've found our next task: wrapup
+[2024-04-07 04:39:55] [class-ss-archive-creation-job.php:132] Current task: wrapup
+[2024-04-07 04:39:55] [class-ss-archive-creation-job.php:149] Performing task: wrapup
+[2024-04-07 04:39:55] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-04-07 04:39:55] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-04-07 04:39:55] [class-ss-archive-creation-job.php:166] This task is done and there are no more tasks, time to complete the job
+[2024-04-07 04:39:55] [class-ss-archive-creation-job.php:193] Completing the job
+[2024-04-07 04:39:55] [class-ss-archive-creation-job.php:320] Status message: [done] Done! Finished in 00:00:42
+[2024-04-07 04:41:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/school-demo

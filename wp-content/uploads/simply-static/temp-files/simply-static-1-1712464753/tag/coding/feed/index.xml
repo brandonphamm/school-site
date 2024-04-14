@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>coding &#8211; school Site</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description></description>
+	<lastBuildDate>Tue, 19 Mar 2024 03:37:02 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5</generator>
+	<item>
+		<title>Pellentesque Semper</title>
+		<link>./../../../post-1/index.html</link>
+					<comments>./../../../post-1/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[brandonpham]]></dc:creator>
+		<pubDate>Tue, 05 Mar 2024 04:59:01 +0000</pubDate>
+				<category><![CDATA[Ipsum]]></category>
+		<category><![CDATA[Lorem]]></category>
+		<category><![CDATA[coding]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=37</guid>
+
+					<description><![CDATA[Lorem Ipsum&#160;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when... <a class="read-more" href="./../../../post-1/index.html"> Read more about the student...</a>]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../post-1/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

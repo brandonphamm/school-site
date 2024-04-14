@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Developer &#8211; school Site</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description></description>
+	<lastBuildDate>Thu, 14 Mar 2024 07:55:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5</generator>
+	<item>
+		<title>Nadia Aziz</title>
+		<link>./../../../students/nadia-aziz/index.html</link>
+		
+		<dc:creator><![CDATA[brandonpham]]></dc:creator>
+		<pubDate>Thu, 07 Mar 2024 08:54:19 +0000</pubDate>
+				<guid isPermaLink="false">./../../../index.html?post_type=fwd-students#038;p=184</guid>
+
+					<description><![CDATA[Maecenas lorem dolor, varius eu commodo sit amet, consequat ac odio. Quisque convallis ante libero, ut accumsan mi convallis eu. Aenean at ullamcorper elit, sed... <a class="read-more" href="./../../../students/nadia-aziz/index.html"> Read more about the student...</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Maecenas lorem dolor, varius eu commodo sit amet, consequat ac odio. Quisque convallis ante libero, ut accumsan mi convallis eu. Aenean at ullamcorper elit, sed Aliquam at massa vitae purus tempus hendrerit vitae vitae nibh. Integer dapibus vitae libero a interdum. Integer bibendum nisl eu tellus feugiat, pharetra accumsan turpis<a href="https://wp.bcitwebdeveloper.ca/school-demo/students/nadia-aziz/"></a></p>
+
+
+
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://bcit.ca/">Nadia Aziz Portfolio</a></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Maxwell Zack</title>
+		<link>./../../../students/maxwell-zack/index.html</link>
+		
+		<dc:creator><![CDATA[brandonpham]]></dc:creator>
+		<pubDate>Thu, 07 Mar 2024 08:52:23 +0000</pubDate>
+				<guid isPermaLink="false">./../../../index.html?post_type=fwd-students#038;p=182</guid>
+
+					<description><![CDATA[Mauris arcu dolor, iaculis at euismod non, ornare at justo. Fusce ultricies ligula sapien, vel accumsan ligula pharetra a. Proin luctus molestie velit, id tincidunt... <a class="read-more" href="./../../../students/maxwell-zack/index.html"> Read more about the student...</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Mauris arcu dolor, iaculis at euismod non, ornare at justo. Fusce ultricies ligula sapien, vel accumsan ligula pharetra a. Proin luctus molestie velit, id tincidunt Aliquam at massa vitae purus tempus hendrerit vitae vitae nibh. Integer dapibus vitae libero a interdum. Integer bibendum nisl eu tellus feugiat, pharetra accumsan turpis</p>
+
+
+
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://brandonp.co/">Maxwell Zack Portfolio</a></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Jack White</title>
+		<link>./../../../students/jack-white/index.html</link>
+		
+		<dc:creator><![CDATA[brandonpham]]></dc:creator>
+		<pubDate>Thu, 07 Mar 2024 08:52:00 +0000</pubDate>
+				<guid isPermaLink="false">./../../../index.html?post_type=fwd-students#038;p=181</guid>
+
+					<description><![CDATA[ Vivamus at enim scelerisque, facilisis est eget, tristique purus. Fusce at tristique diam, at pharetra urna. Praesent quis vulputate leo. Praesent malesuada at turpis id... <a class="read-more" href="./../../../students/jack-white/index.html"> Read more about the student...</a>]]></description>
+										<content:encoded><![CDATA[
+<p> Vivamus at enim scelerisque, facilisis est eget, tristique purus. Fusce at tristique diam, at pharetra urna. Praesent quis vulputate leo. Praesent malesuada at turpis id Aliquam at massa vitae purus tempus hendrerit vitae vitae nibh. Integer dapibus vitae libero a interdum. Integer bibendum nisl eu tellus feugiat, pharetra accumsan turpis</p>
+
+
+
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://brandonp.co/">Jack White Portfolio</a></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
